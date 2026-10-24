@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-surface: #141312;
+  --color-surface-dim: #141312;
+  --color-surface-bright: #3b3937;
+  --color-surface-container-lowest: #0f0e0d;
+  --color-surface-container-low: #1d1b1a;
+  --color-surface-container: #211f1e;
+  --color-surface-container-high: #2b2a28;
+  --color-surface-container-highest: #363433;
+  --color-on-surface: #e6e1df;
+  --color-on-surface-variant: #d1c5b4;
+  --color-outline: #9a8f80;
+  --color-outline-variant: #4e4639;
+  --color-primary: #e9c176;
+  --color-primary-container: #c5a059;
+  --color-primary-fixed: #ffdea5;
+  --color-on-primary: #412d00;
+  --color-on-primary-container: #4e3700;
+  --color-tertiary: #e8c178;
+  --color-tertiary-fixed: #ffdea4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    background-color: #141312;
+    color: #e6e1df;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #141312;
+    color: #e6e1df;
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Awadhi gold shimmer and borders */
+.gold-shimmer {
+  background: linear-gradient(135deg, rgba(233, 193, 118, 0.15) 0%, rgba(233, 193, 118, 0.03) 100%);
+}
+
+.gold-border {
+  border: 1px solid rgba(197, 160, 89, 0.22);
+}
+
+.gold-border-active {
+  border: 1px solid rgba(197, 160, 89, 0.55);
+}
+
+.gold-glow {
+  box-shadow: 0 4px 25px rgba(197, 160, 89, 0.2);
+}

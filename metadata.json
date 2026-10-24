@@ -1,0 +1,6 @@
+{
+  "name": "The Mughal's Dastarkhwan",
+  "description": "Custodians of Awadhi courtly gastronomy in Lucknow. Experience authentic Dum Pukht, Galawat Kebabs, royal sigri embers, and timeless tehzeeb in Hazratganj.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

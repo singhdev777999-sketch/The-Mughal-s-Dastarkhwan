@@ -1,0 +1,224 @@
+---
+name: Modern Nawabi Opulence
+colors:
+  surface: '#141312'
+  surface-dim: '#141312'
+  surface-bright: '#3b3937'
+  surface-container-lowest: '#0f0e0d'
+  surface-container-low: '#1d1b1a'
+  surface-container: '#211f1e'
+  surface-container-high: '#2b2a28'
+  surface-container-highest: '#363433'
+  on-surface: '#e6e1df'
+  on-surface-variant: '#d1c5b4'
+  inverse-surface: '#e6e1df'
+  inverse-on-surface: '#32302f'
+  outline: '#9a8f80'
+  outline-variant: '#4e4639'
+  surface-tint: '#e9c176'
+  primary: '#e9c176'
+  on-primary: '#412d00'
+  primary-container: '#c5a059'
+  on-primary-container: '#4e3700'
+  inverse-primary: '#775a19'
+  secondary: '#c9c6c1'
+  on-secondary: '#31312d'
+  secondary-container: '#474743'
+  on-secondary-container: '#b7b5b0'
+  tertiary: '#e8c178'
+  on-tertiary: '#412d00'
+  tertiary-container: '#c4a05a'
+  on-tertiary-container: '#4e3700'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdea5'
+  primary-fixed-dim: '#e9c176'
+  on-primary-fixed: '#261900'
+  on-primary-fixed-variant: '#5d4201'
+  secondary-fixed: '#e5e2dc'
+  secondary-fixed-dim: '#c9c6c1'
+  on-secondary-fixed: '#1c1c18'
+  on-secondary-fixed-variant: '#474743'
+  tertiary-fixed: '#ffdea4'
+  tertiary-fixed-dim: '#e8c178'
+  on-tertiary-fixed: '#261900'
+  on-tertiary-fixed-variant: '#5d4202'
+  background: '#141312'
+  on-background: '#e6e1df'
+  surface-variant: '#363433'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 68px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '400'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '400'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+  subheading:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: 0.08em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '300'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-uppercase:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.18em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-desktop: 2.5rem
+  margin: 1.25rem
+  margin-tablet: 2.5rem
+  margin-desktop: 5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+
+This design system translates the legendary hospitality (*tehzeeb*) and culinary heritage of Awadhi royal court dining into a contemporary, quiet-luxury digital presence. Conceived for connoisseurs, international gastronomes, and patrons of refined heritage dining, the experience balances majestic gravitas with understated modern restraint.
+
+The style converges **Minimalism** and **Tactile Luxury**:
+- **Atmospheric Chiaroscuro:** Deep, warm midnight-espresso canvases evoke the candlelit intimacy of Nawabi evening salons.
+- **Asymmetric Editorial Cadence:** Deliberate, spacious margins, staggered typography tiers, and generous negative space emulate limited-edition art monographs.
+- **Architectural Motifs:** Slender hairline dividers, jali-inspired micro-motifs, and bespoke gold metadata badges pay subtle homage to Lucknow’s Bara Imambara and royal arches without succumbing to decorative clutter.
+- **Tactile Materiality:** Interfaces feel physically rooted—resembling heavy textured parchment, aged brass inlays, and lacquered dark wood.
+
+## Colors
+
+The palette draws directly from the warm embers of tandoors, brass serving cloches (*degchis*), and the ambient shadow of royal banquet rooms.
+
+- **Foundational Neutrals:** 
+  - Canvas Base: `#0D0C0B` (Midnight Charcoal / Deepest Peat)
+  - Elevated Layer / Surface Container: `#171513` (Smoked Espresso)
+  - Raised Surface / Card Overlay: `#221F1C` (Charred Oak)
+- **Primary & Accent Gold:**
+  - Primary Accent: `#C5A059` (Brushed Antique Gold) provides warm illumination for key actions, interactive hover states, and royal insignias.
+  - Highlight Tint: `#D4AF37` (Imperial Gold Leaf) used sparingly for active focal points and star indicators.
+  - Deep Metallic Base: `#9E7D3B` (Raw Brass) for refined hairline rules, muted metadata tags, and pressed states.
+- **Typography & High-Contrast Cream:**
+  - Headline Ivory: `#F9F6F0` (Champagne Cream) creates soft, dignified contrast against deep backgrounds without the eye strain of harsh pure whites.
+  - Body Parchment: `#EFECE6` (Aged Silk) provides high legibility for long-form culinary storytelling and tasting menus.
+  - Muted Meta: `#A6A095` (Warm Ash) grounds timestamps, provenance notes, and captions.
+- **Functional Semantics:**
+  - Success / Vegetarian Heritage: `#4E6548` (Malabar Forest)
+  - Subtle Warning / Reservation Notice: `#A85834` (Kashmiri Saffron Ember)
+
+## Typography
+
+The typographic pairing balances the literary dignity of historical Lucknow with international haute-cuisine precision:
+
+- **Primary Display & Editorial Headings (Playfair Display):** Stately, high-contrast transitional serif. Its generous descenders and graceful italic swashes evoke court calligraphy and royal edicts. Headlines should be styled with sentence-casing or poetic titles, avoiding all-caps formatting for display serifs.
+- **Secondary & Utilitarian Body (Plus Jakarta Sans):** Modern, geometric, clean-grotesque sans-serif. Used with ample line-height to guarantee effortless reading across course selections, tasting notes, and reservation journeys.
+- **Micro-Copy & Metadata:** All section eyebrow headers, provenance badges, and preparation descriptors use `label-uppercase` in all-caps with generous kerning (`letterSpacing: 0.18em`) and semi-bold weights for refined structure.
+
+## Layout & Spacing
+
+The layout is built upon an asymmetrical editorial grid that rejects dense utilitarian tables in favor of generous culinary compositions.
+
+- **Grid Architecture:**
+  - **Desktop (1200px+):** 12-column layout with `5rem` outer canvas padding and `2.5rem` gutters. Course pairings and culinary narratives utilize 5/7 or 4/8 column asymmetric splits.
+  - **Tablet (768px - 1199px):** 8-column layout with `2.5rem` outer canvas margins and `1.5rem` gutters.
+  - **Mobile (<768px):** 4-column layout with `1.25rem` outer margin and `1rem` column gap.
+- **Rhythm & Breathing Room:**
+  - Plentiful negative space around course imagery and signature dishes (such as Galawati Kebab, Dum Biryani, and Shahi Tukda).
+  - Vertical section gaps scale aggressively from `3rem` on mobile to `6rem` - `8rem` on desktop to maintain an unhurried, contemplative pace.
+
+## Elevation & Depth
+
+Visual hierarchy relies on quiet, atmospheric tonal stacking rather than heavy dropshadows:
+
+- **Tonal Stratification:** 
+  - Base level starts at `#0D0C0B`.
+  - Nested card containers and interactive panels transition up to `#171513` and `#221F1C`.
+- **Luminous Rim Borders:**
+  - Panels and floating reservation modals use ultra-fine 1px borders tinted in antique gold with low opacity (`rgba(197, 160, 89, 0.15)` on static, rising to `rgba(197, 160, 89, 0.4)` on active hover).
+- **Amber Glow Shadows:**
+  - When elevation is mandatory (e.g., booking trays, active tasting menu selectors), use diffused ambient backdrops: `box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7), 0 0 30px 0 rgba(197, 160, 89, 0.04)`.
+
+## Shapes
+
+The architectural spirit favors crisp, tailored lines reminiscent of handcrafted bone inlays and fine marble masonry:
+
+- **Restrained Soft Cornering (`roundedness: 1`):** Default component corners are micro-beveled (`0.25rem` / `4px`), preserving sharp structural elegance without clinical severity.
+- **Signature Arch Geometries:** Feature imagery, wine cellar highlights, and private dining pavilions incorporate single-axis soft arches (`border-radius: 120px 120px 4px 4px`) reflecting Lucknow’s iconic Awadhi archways.
+- **Pill Accents:** Reserved exclusively for small luxury chips, dietary classification indicators, and sommelier vintage badges.
+
+## Components
+
+- **Buttons:**
+  - *Primary (The Royal Invitation):* Background `#C5A059`, typography `#0D0C0B` (bold, tracking: 0.12em, uppercase), border: none, subtle gold glow on hover.
+  - *Secondary / Ghost (The Nawabi Border):* Transparent background, 1px solid `rgba(197, 160, 89, 0.4)`, text `#F9F6F0`. On hover, fills with `rgba(197, 160, 89, 0.08)` and border brightens to `#C5A059`.
+  - *Text Action:* Champagne ivory with an expanding gold underline transition (`#C5A059`) offset by 6px.
+- **Input Fields & Date Pickers:**
+  - Seamless dark inputs (`#171513`) with subtle bottom-line or 1px hairline border in `rgba(249, 246, 240, 0.1)`. 
+  - On focus, border transitions smoothly to `#C5A059` with an ivory label floating in `label-uppercase`.
+- **Menu & Dish Cards:**
+  - Asymmetric layout featuring the title in `Playfair Display` alongside a gold currency notation (`#C5A059`). 
+  - Followed by sensory Awadhi tasting descriptions in `#A6A095` body-sm, accompanied by subtle spice notes and heritage cooking technique chips.
+- **Chips & Badges:**
+  - Background `rgba(197, 160, 89, 0.08)`, border `1px solid rgba(197, 160, 89, 0.25)`, typography in `#C5A059` (label-uppercase).
+- **Dividers & Embellishments:**
+  - Ultra-thin 1px horizontal rules fading out at edges (`linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.25), transparent)`), occasionally centered with a minimalist brass diamond emblem.
+- **Bespoke Hospitality Modals (Private Dastarkhwan Reservations):**
+  - Atmospheric dark sheet (`#171513`) framed with hairline gold borders, offering guest count selection, chef's table preference, and bespoke sensory requirements.
